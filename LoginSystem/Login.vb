@@ -4,7 +4,7 @@ Imports System.Text
 Imports Google.Protobuf.Reflection.FieldDescriptorProto.Types
 Imports MySql.Data.MySqlClient
 
-Public Class Login
+Public Class LoginFm
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
 
 
