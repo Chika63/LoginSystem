@@ -1,15 +1,11 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Reflection.Emit
 Imports System.Text
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports Google.Protobuf.Reflection.FieldDescriptorProto.Types
 Imports MySql.Data.MySqlClient
 
 Public Class LoginFm
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-
-
-    End Sub
 
     Private Sub Okbtn_Click(sender As Object, e As EventArgs) Handles Okbtn.Click
 
@@ -41,10 +37,14 @@ Public Class LoginFm
 
             '確認
             DataGridView1.DataSource = dt
+            Dim LoginText As String = LoginTb.Text
 
             If dt Is Nothing Then
                 Return
-            ElseIf dt.Rows(0).Item("Id").ToString Is LoginTb.ToString Then
+            ElseIf dt.Rows(0).Item("Id").ToString = LoginText Then
+
+                Dim menu As New Menu
+                menu.Show()
 
 
             End If
@@ -62,4 +62,7 @@ Public Class LoginFm
 
     End Sub
 
+    Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

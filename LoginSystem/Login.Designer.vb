@@ -35,7 +35,7 @@ Partial Class LoginFm
         'Okbtn
         '
         Me.Okbtn.Location = New System.Drawing.Point(425, 382)
-        Me.Okbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Okbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.Okbtn.Name = "Okbtn"
         Me.Okbtn.Size = New System.Drawing.Size(88, 29)
         Me.Okbtn.TabIndex = 0
@@ -45,7 +45,7 @@ Partial Class LoginFm
         'Kysbtn
         '
         Me.Kysbtn.Location = New System.Drawing.Point(519, 382)
-        Me.Kysbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Kysbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.Kysbtn.Name = "Kysbtn"
         Me.Kysbtn.Size = New System.Drawing.Size(88, 29)
         Me.Kysbtn.TabIndex = 1
@@ -75,7 +75,7 @@ Partial Class LoginFm
         'LoginTb
         '
         Me.LoginTb.Location = New System.Drawing.Point(306, 176)
-        Me.LoginTb.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LoginTb.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginTb.Name = "LoginTb"
         Me.LoginTb.Size = New System.Drawing.Size(300, 23)
         Me.LoginTb.TabIndex = 4
@@ -83,7 +83,7 @@ Partial Class LoginFm
         'PathTb
         '
         Me.PathTb.Location = New System.Drawing.Point(303, 300)
-        Me.PathTb.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PathTb.Margin = New System.Windows.Forms.Padding(4)
         Me.PathTb.Name = "PathTb"
         Me.PathTb.Size = New System.Drawing.Size(303, 23)
         Me.PathTb.TabIndex = 5
@@ -92,7 +92,7 @@ Partial Class LoginFm
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(639, 136)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 21
         Me.DataGridView1.Size = New System.Drawing.Size(280, 188)
@@ -110,7 +110,7 @@ Partial Class LoginFm
         Me.Controls.Add(Me.LoginName)
         Me.Controls.Add(Me.Kysbtn)
         Me.Controls.Add(Me.Okbtn)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "LoginFm"
         Me.Text = "ログイン"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -4,13 +4,13 @@ Imports System.Text
 Imports Google.Protobuf.Reflection.FieldDescriptorProto.Types
 Imports MySql.Data.MySqlClient
 
-Public Class Menu
+Public Class EngApl
 
-    Public Sub Menu_Load() Handles MyBase.Load
+    Public Sub EngApl_Load() Handles MyBase.Load
 
     End Sub
 
-    Private Sub Engbtn_Click(sender As Object, e As EventArgs) Handles Engbtn.Click
+    Private Sub Engbtn_Click(sender As Object, e As EventArgs) 
         Dim engapl As New EngApl
         engapl.show()
     End Sub
